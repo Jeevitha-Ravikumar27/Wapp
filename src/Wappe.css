@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2f3640;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg,rgb(56, 215, 236),greenyellow);
+}
+.container{
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.input-con{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 2px solid #70e6f3;
+    border-radius: 10px;
+    overflow :hidden;
+}
+.cityinput{
+    flex: 1;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+
+}
+.searchicon{
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.searchicon img{
+    margin-top: 5px;
+    width: 12px;
+    height: 20px;
+    padding-bottom: 10px;
+   
+
+}
+.image img{
+    height: 150px;
+    width: 150px;
+}
+.image{
+    text-align: center;
+    height: 110px;
+    margin-bottom: 10px;
+
+}
+.temp, 
+.location,
+ .country {
+    margin-top: 10px !important;
+    font-size: 35px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.location{
+    color: #ffbc00;
+}
+.temp{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #333;
+
+}
+.country{
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.cord div span {
+    font-size: 14px;
+}
+.cord div span :nth-child(2) {
+    font-size: 27px;
+    font-weight:bolder;
+    color: #666;
+    padding-top: 5px ;
+    color: aquamarine;
+}
+.A{
+    font-size: 23px !important;
+    font-weight:bolder;
+    color: #666;
+    padding-top: 5px ;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.element{
+    text-align: center !important;
+}
+.icon{
+    
+    height: 50px;
+    width: 50px;
+}
+.icon1{
+   
+    height: 50px;
+    width: 50px;
+}
+.humipercent,
+.windpercent{
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    padding-top: 5px;
+    
+    text-align: center !important;
+}
+.text1,
+.text2{
+    font-size: 12px;
+    color: #888;
+    text-align: center !important;
+    display: block;
+}
+.copy{
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    padding-top: 20px;
+}
+.copy span{
+    color: red;
+    font-style: italic;
+}
+.copy span:hover{
+    font-size: 22px ;
+    color: crimson;
+    background: #fff;
+    
+}
